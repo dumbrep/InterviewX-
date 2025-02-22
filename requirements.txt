@@ -110,7 +110,6 @@ Pygments==2.18.0
 pyparsing==3.2.1
 PyPDF2==3.0.1
 pypdfium2==4.30.1
-pypiwin32==223
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
