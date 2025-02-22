@@ -27,6 +27,7 @@ cymem==2.0.11
 deepface==0.0.93
 distro==1.9.0
 docx2txt==0.8
+dlib==19.24.6
 fastapi==0.115.6
 filelock==3.16.1
 fire==0.7.0
