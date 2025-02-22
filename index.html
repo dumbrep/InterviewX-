@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="connect-src 'self' http://127.0.0.1:8000 ws://127.0.0.1:8000;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <title>Real-Time Interview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Real-Time Interview System</h1>
+    <div>
+        <select name="options" id="role">
+            <option value="AIML">AIML</option>
+            <option value="WebDevelopment">Web Development</option>
+            <option value="DataScience">Data Science</option>
+            <option value="CloudComputing">Cloud Computing</option>
+            <option value="CyberSecurity">Cyber Security</option>
+            <option value="Blockchain">Blockchain</option>
+            <option value="DevOps">DevOps</option>
+            <option value="UIUXDesign">UI/UX Design</option>
+        </select>
+
+        <select name="jtype" id="jtype">
+            <option value="intern">Intern</option>
+            <option value="fresher">Full Time</option>
+            
+        </select>
+        <label for="resume">Resume</label>
+        <input type="file" id="resume" accept="application/pdf">
+    </div>
+    <div>
+
+        <textarea id="job_description" type="text" placeholder="Enter your Job descriptions here"></textarea>
+    </div>
+
+    <div>
+        <img id="video" autoplay playsinline></img>
+    </div>
+    <div class="facial_reactions">
+
+    </div>
+
+    <div class="start_button">
+        <button id="start_button">Start the session</button>
+    </div>
+    <div class="buttons">
+        <button id="question_button">Listen_Question</button>
+        <button id="start_listening">Start Listening</button>
+        <button id="stop_listening">Stop Listening</button>
+        <button id="answer_button">Answer</button>
+    </div>
+
+
+
+
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
