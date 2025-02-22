@@ -74,7 +74,7 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 matplotlib==3.10.0
 mdurl==0.1.2
-mediapipe
+mediapipe==0.10.20
 ml-dtypes==0.4.1
 mtcnn==1.0.0
 multidict==6.1.0
@@ -97,6 +97,7 @@ pillow==11.1.0
 preshed==3.0.9
 propcache==0.2.1
 proto-plus==1.25.0
+protobuf==5.29.2
 pyarrow==18.1.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
@@ -141,7 +142,6 @@ starlette==0.41.3
 stemming==1.0.1
 tenacity==9.0.0
 termcolor==2.5.0
-tf_keras==2.18.0
 thinc==8.3.4
 tika==2.6.0
 toml==0.10.2
