@@ -1,5 +1,5 @@
 
-const ws2 = new WebSocket("ws://127.0.0.1:8000/video");
+const ws2 = new WebSocket("wss://interviewx-qiz7.onrender.com/video");
 
 const startButton = document.getElementById("start_button")
 
@@ -18,7 +18,7 @@ startButton.addEventListener("click", async () => {
 
     await readPDF()
     // Connecting with WebSockets
-        const ws = new WebSocket(`ws://127.0.0.1:8000/interview/${role}`);
+        const ws = new WebSocket(`wss://interviewx-qiz7.onrender.com/interview/${role}`);
     
         ws2.onopen = () => {
             console.log("Connected to video websokets successfully")
