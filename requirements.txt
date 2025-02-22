@@ -26,7 +26,6 @@ cycler==0.12.1
 cymem==2.0.11
 deepface==0.0.93
 distro==1.9.0
-dlib==19.24.6
 docx2txt==0.8
 fastapi==0.115.6
 filelock==3.16.1
@@ -94,7 +93,6 @@ proto-plus==1.25.0
 pyarrow==18.1.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
-PyAudio==0.2.14
 pycparser==2.22
 pydantic==2.10.4
 pydantic_core==2.27.2
